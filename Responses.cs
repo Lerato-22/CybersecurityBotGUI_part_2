@@ -37,7 +37,7 @@ namespace CybersecurityBotGUI_part_2
         {
             return _memory.ContainsKey(key) ? _memory[key] : null;
         }
-
+        // Keyword recognition for cybersecurity topics
         public static string GetResponse(string input, string name)
         {
             input = input.ToLower().Trim();

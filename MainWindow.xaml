@@ -162,4 +162,5 @@
             </Border>
         </Grid>
     </Grid>
+<! GUI layout: sidebar and chat area >
 </Window>

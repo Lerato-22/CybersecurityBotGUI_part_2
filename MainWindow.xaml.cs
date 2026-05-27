@@ -82,7 +82,7 @@ namespace CybersecurityBotGUI_part_2
             UserInput.Text = topic;
             SendMessage();
         }
-
+        // Handles sending messages and displaying chat bubbles
         private void SendMessage()
         {
             string input = UserInput.Text.Trim();
